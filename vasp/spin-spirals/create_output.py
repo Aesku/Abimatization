@@ -40,9 +40,10 @@ with open("dispersion.txt", "w") as f:
 
 file_path = "dispersion.txt"
 
+Gindex = 8
 with open(file_path, "r+") as f:
     lines = f.readlines()
-    seventeenth_line = lines[16]  # Line 17 is at index 16
+    seventeenth_line = lines[Gindex]  # Line 17 is at index 16
     f.write(seventeenth_line.rstrip())
 
 os.system('rm *aux.txt')

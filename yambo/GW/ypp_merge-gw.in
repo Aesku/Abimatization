@@ -1,0 +1,26 @@
+#                                                                     
+# :   :::   :::     ::::    ::::  :::::::::   ::::::::                
+# :+:   :+: :+: :+:   +:+:+: :+:+:+ :+:    :+: :+:    :+              
+#  +:+ +:+ +:+   +:+  +:+ +:+:+ +:+ +:+    +:+ +:+    +:+             
+#   +#++: +#++:++#++: +#+  +:+  +#+ +#++:++#+  +#+    +:+             
+#    +#+  +#+     +#+ +#+       +#+ +#+    +#+ +#+    +#+             
+#    #+#  #+#     #+# #+#       #+# #+#    #+# #+#    #+#             
+#    ###  ###     ### ###       ### #########   ########              
+#                                                                     
+#                                                                     
+# Version 5.2.0 Revision 23598 Hash (prev commit) 8a57582ba1          
+#                 Branch is phys-magnons                              
+#         MPI+OpenMP+SLK+SLEPC+HDF5_MPI_IO Build                      
+#                http://www.yambo-code.eu                             
+#
+QPDBs                            # [R] Quasiparticle Databases
+QPDB_merge                       # [R] Mergering
+%Actions_and_names               # [QPDB] Format is "what"|"OP"|"prefactor"|"DB"|. OP can be +/-/x(only for Z)
+"E" | "+" | "1" | "fullBZ_b13-13/ndb.QP" |
+"E" | "+" | "1" | "fullBZ_b14-14/ndb.QP" |
+"E" | "+" | "1" | "fullBZ_b15-15/ndb.QP" |
+"E" | "+" | "1" | "fullBZ_b16-16/ndb.QP" |
+"E" | "+" | "1" | "fullBZ_b17-17/ndb.QP" |
+"E" | "+" | "1" | "fullBZ_b18-18/ndb.QP" |
+"E" | "+" | "1" | "fullBZ_b19-19/ndb.QP" |
+%
